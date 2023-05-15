@@ -6,10 +6,10 @@ const userSchema = new Schema(
             type: String,
             unique: true,
             required: true,
-            trim: true
+            trim: true,
         },
         email: {
-            Type: String,
+            type: String,
             required: true,
             unique: true,
             match: [
@@ -43,5 +43,6 @@ userSchema.virtual('friendCount').get(function () {
 });
 
 const User = model('User', userSchema);
+
 
 module.exports = User;
