@@ -26,7 +26,7 @@ Express, mongoose, moment, and nodemon (to help resolve errors while createing a
 
 ## Usage
 
-[Walkthrough]()
+[Walkthrough](https://watch.screencastify.com/v/v7P0WjLMPlLpKPzy9qrt)
 
 ## Credits
 
